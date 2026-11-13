@@ -1,0 +1,7 @@
+node_modules/
+.env
+secrets/
+*.log
+.DS_Store
+backend/data/events.json
+backend/data/registrations.json

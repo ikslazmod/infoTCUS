@@ -1,0 +1,21 @@
+{
+  "name": "tcus-backend",
+  "version": "1.0.0",
+  "description": "API zapisow na wydarzenia Torunskiego Centrum Uslug Spolecznych",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^144.0.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
